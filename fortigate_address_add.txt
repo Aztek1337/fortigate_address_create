@@ -1,0 +1,15 @@
+config firewall address
+
+edit 10.0.100.10/24
+set subnet 10.0.100.10 255.255.255.0
+next
+
+edit 192.168.100.100/17
+set subnet 192.168.100.100 255.255.128.0
+next
+
+edit 4.6.7.100/32
+set subnet 4.6.7.100 255.255.255.255
+next
+
+end
