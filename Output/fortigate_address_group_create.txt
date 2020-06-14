@@ -1,0 +1,10 @@
+config firewall addgrp
+
+edit TEST
+
+set member "10.0.100.10/24" "192.168.100.100/17" "4.6.7.100/32"
+
+next
+
+end
+
