@@ -62,7 +62,7 @@ for addr, subnet in addresses.items():
 
 # Adds address object names to address_objects list
     address_object = str(addr) + str(cidr)
-    addre"""  """ss_objects.append(address_object)
+    address_objects.append(address_object)
 
 # Writes fortigate script to file
     new_script.write("edit {addr}{cidr}\nset subnet {addr} {subnet}\nnext\n\n".format(addr=addr, cidr=cidr, subnet=subnet))
