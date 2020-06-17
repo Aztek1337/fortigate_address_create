@@ -38,7 +38,7 @@ else:
 print("===========")
 print("There is " + str(num_of_addr) + " addresses listed in ip_addresses.csv\n")
 
-addr_group_quest = input("Would you lik these addresses added as a new address group object? (y/n): ")
+addr_group_quest = input("Would you like to add these addresses as a new address object group? (y/n): ")
 addr_group_quest = addr_group_quest.lower()
 
 if addr_group_quest == "y":
