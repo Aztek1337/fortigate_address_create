@@ -1,7 +1,5 @@
 # This script makes a Fortigate script for adding subnet address objects.
 
-#### This just creates the objects themselves, does not put them in any address object group.
-
 ## Steps
 
 Requires python 3.7.x or higher
