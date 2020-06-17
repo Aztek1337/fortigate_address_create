@@ -50,7 +50,7 @@ print("  ----------         ------")
 
 new_script.write("config firewall address\n\n")
 
-# List of addess object names
+# List of address object names
 address_objects = []
 
 for addr, subnet in addresses.items():
