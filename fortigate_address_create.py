@@ -90,7 +90,7 @@ if addr_group_quest == "y":
         new_addr_group_script = open("Output/fortigate_address_group_create.txt", "w")
 
     new_addr_group_script.write("config firewall addrgrp\n\n")
-    new_addr_group_script.write("edit {addrgrpname}\n\n".format(addgrpname=addr_group_name))
+    new_addr_group_script.write("edit {addgrpname}\n\n".format(addgrpname=addr_group_name))
     new_addr_group_script.write("set member {addr_str}\n\n".format(addr_str=address_str))
     new_addr_group_script.write("next\n\n")
     new_addr_group_script.write("end\n\n")
