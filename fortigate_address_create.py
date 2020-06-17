@@ -62,7 +62,7 @@ for addr, subnet in addresses.items():
 
 # Adds address object names to address_objects list
     address_object = str(addr) + str(cidr)
-    address_objects.append(address_object)
+    addre"""  """ss_objects.append(address_object)
 
 # Writes fortigate script to file
     new_script.write("edit {addr}{cidr}\nset subnet {addr} {subnet}\nnext\n\n".format(addr=addr, cidr=cidr, subnet=subnet))
@@ -90,7 +90,7 @@ if addr_group_quest == "y":
         new_addr_group_script = open("Output/fortigate_address_group_create.txt", "w")
 
     new_addr_group_script.write("config firewall addgrp\n\n")
-    new_addr_group_script.write("edit {addgrpname}\n\n".format(addgrpname=addr_group_name))
+    new_addr_group_script.write("edit {addrgrpname}\n\n".format(addgrpname=addr_group_name))
     new_addr_group_script.write("set member {addr_str}\n\n".format(addr_str=address_str))
     new_addr_group_script.write("next\n\n")
     new_addr_group_script.write("end\n\n")
