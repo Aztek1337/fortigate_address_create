@@ -1,4 +1,4 @@
-# Script created by aa@aztek.xyz
+# Script created by angel.alvarez@aztek.xyz
 # Please send all questions,bugs to aa@aztek.xyz
 
 from csv import reader
