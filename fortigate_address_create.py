@@ -1,5 +1,5 @@
 # Script created by angel.alvarez@aztek.xyz
-# Please send all questions,bugs to aa@aztek.xyz
+# Please send all questions,bugs to angel.alvarez@aztek.xyz
 
 from csv import reader
 from pathlib import Path
